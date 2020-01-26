@@ -1,0 +1,325 @@
+@import bootstrap.css
+
+
+$primaryColor: green //#6b2525 
+$darkColor: rgb(40,40,40)
+$nav_size: 60px
+
+*
+    box-sizing: border-box  
+
+html,body
+    margin: 0 
+    padding: 0
+    font-family: Quicksand 
+    scroll-behavior: smooth
+    text-align: center
+
+.twogrid // to be used for containing hours and maps/box
+    max-width: 800px
+    //background: red
+    display: grid
+    grid-template-columns: auto auto
+    align-items: center
+    margin: 30px auto
+
+.coffee-list
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    padding: 0
+    max-width: 900px
+    margin: auto
+    li
+        margin: 40px 15px
+        
+        >p 
+            line-height: 1.4
+            color: inherit
+            &:first-of-type
+                font-weight: bold
+            &:last-of-type
+                font-style: italic
+            
+
+
+hr
+    background: rgb(100,100,100)
+
+li
+    list-style: none
+ 
+h2,h3,h4
+    font-family: Courgette
+
+.navbar
+    min-height: $nav_size
+    padding: 0 40px
+    position: sticky
+    top: 0px
+    z-index: 2
+    background: rgb(240,240,240)
+    box-shadow: 0 0 10px gray
+    .navbar-brand
+        padding: 0
+        img
+            padding: 0
+            height: $nav_size
+            width: $nav_size*1.16
+    .navbar-toggler-icon
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,85,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+    li>a 
+        font-weight: bold
+        color: green 
+        &:hover
+            color: lightgreen
+
+
+[class$="-box"] 
+    background: $darkColor
+    color: white
+    padding: 1px
+
+.Home
+    .home-menu
+        padding: 40px
+        background: $darkColor
+        color: white
+        a
+            color: green
+            border: none
+            background: none
+            font-weight: bold
+            font-style: italic
+            text-decoration: underline
+
+.intro
+    width: 100%
+    height: calc(100vh - #{$nav_size})
+    padding: 0px 30px 0
+    p
+        position: absolute 
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-align: center
+        color: white
+        font-family: Sacramento
+        font-size: 38px
+   
+
+.display 
+    height: 100%
+    width: 100%
+
+    .carousel-inner
+        height: 100%
+        width: 100%
+        div
+            width: 100%
+            height: 100%
+            background-size: cover
+            background-position: center
+            background-attachment: fixed
+
+            &:nth-of-type(1)
+                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/coffee.jpg')
+            &:nth-of-type(2)
+                background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/cupcake.png')
+            &:nth-of-type(3)
+                background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../images/samosa1.jpg')
+        p
+            display: flex
+            justify-content: center
+            align-items: center
+
+.about
+    text-align: center
+    max-width: 800px
+    margin: 120px auto 70px
+    font-size: 18px
+    line-height: 1.7
+    font-weight: 500 
+    padding: 10px
+
+    h2
+        margin-bottom: 40px 
+        color: $primaryColor
+    p
+
+
+hr
+    width: 80%
+    margin: 70px auto
+
+.services
+    display: flex 
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    max-width: 900px
+    margin: auto
+
+    div
+        width: 30%
+        padding: 20px
+        position: relative
+
+        img
+            width: 100%
+
+        p
+            position: absolute 
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            background: white
+            border: $primaryColor solid 2px
+            padding: 5px 10px
+            color: $primaryColor
+            font-weight: bold
+
+
+.menu-cont
+    max-width: 100%
+    background: rgb(40,40,40)
+    color: white
+    padding: 1px
+    
+.menu
+    max-width: 900px
+    margin: auto
+    margin-top: 30px
+    text-align: center
+    
+
+    h2
+        margin: 30px
+    
+    
+            
+
+.Contact
+    display: grid
+    grid-template-columns: 290px 1fr 
+    margin: auto
+    max-width: 900px
+    //padding-top: calc(calc(100vh - 300px)/2) 
+        
+    .inputs
+        outline: none
+        border: none
+        border-radius: 10px
+        padding: 5px
+        background: white 
+
+
+    .cont-info
+        font-family: Montserrat
+        padding: 35px 20px
+        h4
+            margin-bottom: 40px
+
+        
+    .sendMessage
+        padding: 20px
+        div 
+            display: flex 
+            justify-content: space-between
+        input
+            width: 40% 
+            
+        textarea
+            display: block
+            width: 100%  
+            height: 160px
+            margin: 40px 0
+            
+        button
+            display: block
+            margin: auto
+            background: green
+            border: none
+            border-radius: 5px
+            padding: 5px 15px
+            
+
+
+.location
+    display: grid
+    grid-template-columns: 1fr 1fr
+    max-width: 900px
+    text-align: center
+    margin: auto
+    padding: 0 10px
+
+.map-cont
+    height: 150px 
+    background: gray
+
+.map
+    width: 100%
+    height: 100%
+    border: 0
+    //filter: grayscale(100%)
+
+i
+    display: block
+    text-align: center
+    margin: 70px 0
+
+.beignets , .samosa
+    text-align: center
+    padding: 20px
+    h2
+        margin-top: 30px auto 50px
+        text-decoration: underline overline
+    >p
+        max-width: 1000px
+        margin: auto
+        font-size: 20px
+        line-height: 1.7
+
+    /* >div
+        //background: red
+        display: grid
+        grid-template-columns: auto auto
+        align-items: center */
+    .beignets-info
+        max-width: 400px
+        padding: 20px 
+        background: rgb(100,100,100)
+        border: 2px solid white
+        border-radius: 10px
+        img
+            width: 150px
+            margin: auto
+
+
+
+
+
+@media screen and (max-width: 700px)
+
+    .twogrid,.coffee-list
+        grid-template-columns: 1fr
+
+    .intro
+        padding: 0px
+
+    .services
+        flex-direction: column 
+        div
+            width: 300px
+
+
+    .Contact
+        grid-template-columns: 1fr  
+        h4
+            grid-column: 1/2
+        .cont-info
+            justify-self: center            
+
+    .location
+        grid-template-columns: 1fr
+
+    

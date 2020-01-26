@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cafe-mawa-react/static/css/main.e601e261.chunk.css",
+    "main.js": "/cafe-mawa-react/static/js/main.9bcb0164.chunk.js",
+    "main.js.map": "/cafe-mawa-react/static/js/main.9bcb0164.chunk.js.map",
+    "runtime-main.js": "/cafe-mawa-react/static/js/runtime-main.05e6d911.js",
+    "runtime-main.js.map": "/cafe-mawa-react/static/js/runtime-main.05e6d911.js.map",
+    "static/js/2.f0565056.chunk.js": "/cafe-mawa-react/static/js/2.f0565056.chunk.js",
+    "static/js/2.f0565056.chunk.js.map": "/cafe-mawa-react/static/js/2.f0565056.chunk.js.map",
+    "index.html": "/cafe-mawa-react/index.html",
+    "precache-manifest.9f815e5b3ef9375bdc3643916df0dfa2.js": "/cafe-mawa-react/precache-manifest.9f815e5b3ef9375bdc3643916df0dfa2.js",
+    "service-worker.js": "/cafe-mawa-react/service-worker.js",
+    "static/css/main.e601e261.chunk.css.map": "/cafe-mawa-react/static/css/main.e601e261.chunk.css.map",
+    "static/js/2.f0565056.chunk.js.LICENSE": "/cafe-mawa-react/static/js/2.f0565056.chunk.js.LICENSE",
+    "static/media/beignets.png": "/cafe-mawa-react/static/media/beignets.8e2bec08.png",
+    "static/media/style.css": "/cafe-mawa-react/static/media/samosa1.326800e0.jpg",
+    "static/media/logo.png": "/cafe-mawa-react/static/media/logo.ba62831c.png",
+    "static/media/samosaSm.png": "/cafe-mawa-react/static/media/samosaSm.94e0caa7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e6d911.js",
+    "static/js/2.f0565056.chunk.js",
+    "static/css/main.e601e261.chunk.css",
+    "static/js/main.9bcb0164.chunk.js"
+  ]
+}

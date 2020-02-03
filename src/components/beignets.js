@@ -1,5 +1,5 @@
 import React from 'react';
-import Imge from "../images/beignets.png"
+import Imge from "../images/main-beignets.png"
 import Hours from "./hours"  //the imported word has to be capitalize even if its not in original file
 
 const beignets = () => {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cafe-mawa-react/static/css/main.b20d802c.chunk.css",
+    "main.css": "/cafe-mawa-react/static/css/main.f0ce1bc8.chunk.css",
     "main.js": "/cafe-mawa-react/static/js/main.2ecaac5f.chunk.js",
     "main.js.map": "/cafe-mawa-react/static/js/main.2ecaac5f.chunk.js.map",
     "runtime-main.js": "/cafe-mawa-react/static/js/runtime-main.05e6d911.js",
@@ -8,9 +8,9 @@
     "static/js/2.6b25370f.chunk.js": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js",
     "static/js/2.6b25370f.chunk.js.map": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js.map",
     "index.html": "/cafe-mawa-react/index.html",
-    "precache-manifest.5e6a11751b562188fc63a9424bb92eb0.js": "/cafe-mawa-react/precache-manifest.5e6a11751b562188fc63a9424bb92eb0.js",
+    "precache-manifest.45d0d7a298193acc470c5bef3caee06d.js": "/cafe-mawa-react/precache-manifest.45d0d7a298193acc470c5bef3caee06d.js",
     "service-worker.js": "/cafe-mawa-react/service-worker.js",
-    "static/css/main.b20d802c.chunk.css.map": "/cafe-mawa-react/static/css/main.b20d802c.chunk.css.map",
+    "static/css/main.f0ce1bc8.chunk.css.map": "/cafe-mawa-react/static/css/main.f0ce1bc8.chunk.css.map",
     "static/js/2.6b25370f.chunk.js.LICENSE": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js.LICENSE",
     "static/media/logo.png": "/cafe-mawa-react/static/media/logo.ba62831c.png",
     "static/media/style.css": "/cafe-mawa-react/static/media/menu-tea.436210e0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.05e6d911.js",
     "static/js/2.6b25370f.chunk.js",
-    "static/css/main.b20d802c.chunk.css",
+    "static/css/main.f0ce1bc8.chunk.css",
     "static/js/main.2ecaac5f.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f4b233ec796776f5c73f42990e40fac",
+    "revision": "67651c2f9801bdde65e94d2769e8933c",
     "url": "/cafe-mawa-react/index.html"
   },
   {
-    "revision": "f51d2f961cc70e3653fb",
-    "url": "/cafe-mawa-react/static/css/main.b20d802c.chunk.css"
+    "revision": "3843e4c24c64b90d1ffe",
+    "url": "/cafe-mawa-react/static/css/main.f0ce1bc8.chunk.css"
   },
   {
     "revision": "f0343596e8058b754e56",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js.LICENSE"
   },
   {
-    "revision": "f51d2f961cc70e3653fb",
+    "revision": "3843e4c24c64b90d1ffe",
     "url": "/cafe-mawa-react/static/js/main.2ecaac5f.chunk.js"
   },
   {

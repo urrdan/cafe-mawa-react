@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67651c2f9801bdde65e94d2769e8933c",
+    "revision": "59ab47391bbb42eca332702d37a386a7",
     "url": "/cafe-mawa-react/index.html"
   },
   {
-    "revision": "3843e4c24c64b90d1ffe",
-    "url": "/cafe-mawa-react/static/css/main.f0ce1bc8.chunk.css"
+    "revision": "0a4c81f2874dfd1f7afe",
+    "url": "/cafe-mawa-react/static/css/main.661b8693.chunk.css"
   },
   {
-    "revision": "f0343596e8058b754e56",
-    "url": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js"
+    "revision": "d4274afc68111425b870",
+    "url": "/cafe-mawa-react/static/js/2.0bdc3863.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/cafe-mawa-react/static/js/2.6b25370f.chunk.js.LICENSE"
+    "url": "/cafe-mawa-react/static/js/2.0bdc3863.chunk.js.LICENSE"
   },
   {
-    "revision": "3843e4c24c64b90d1ffe",
-    "url": "/cafe-mawa-react/static/js/main.2ecaac5f.chunk.js"
+    "revision": "0a4c81f2874dfd1f7afe",
+    "url": "/cafe-mawa-react/static/js/main.86f6db6c.chunk.js"
   },
   {
     "revision": "82c463848ca0bab31692",
     "url": "/cafe-mawa-react/static/js/runtime-main.05e6d911.js"
+  },
+  {
+    "revision": "53b4fafa707ca501f8cbabc867f89a9f",
+    "url": "/cafe-mawa-react/static/media/facebook.53b4fafa.svg"
+  },
+  {
+    "revision": "e75317fafc5e835195adf92be513d35b",
+    "url": "/cafe-mawa-react/static/media/instagram.e75317fa.svg"
   },
   {
     "revision": "ba62831c8a0ecc40780c4cae27668bbc",

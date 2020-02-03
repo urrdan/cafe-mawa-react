@@ -1,6 +1,8 @@
 import React from 'react';
 import Map from "./map"
 import {NavLink} from 'react-router-dom';
+import instagram from '../images/instagram.svg'
+import facebook from '../images/facebook.svg'
 import logo from '../images/logo.png'
 
 
@@ -70,6 +72,17 @@ const Home = () => {
         </div>
 
         <Map/>
+
+        <div className="media">
+            <section>
+                <img src={instagram} alt='Home'/>
+                <p>cafe_mawa</p>
+            </section>
+            <section>
+                <img src={facebook} alt='Home' />
+                <p>cafe_mawa</p>
+            </section>
+        </div>
     
     </div>
 

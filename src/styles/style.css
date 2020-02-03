@@ -145,6 +145,15 @@ h2, h3, h4 {
     margin-bottom: 40px;
     color: green; }
 
+.media {
+  display: flex;
+  justify-content: center;
+  color: gray; }
+  .media section {
+    margin: 30px; }
+    .media section img {
+      height: 30px; }
+
 hr {
   width: 80%;
   margin: 70px auto; }

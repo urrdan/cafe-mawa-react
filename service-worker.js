@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cafe-mawa-react/precache-manifest.55e3954f874ec821a3f24a3cc165c558.js"
+  "/cafe-mawa-react/precache-manifest.5e6a11751b562188fc63a9424bb92eb0.js"
 );
 
 self.addEventListener('message', (event) => {
